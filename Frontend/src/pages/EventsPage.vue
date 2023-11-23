@@ -1,0 +1,67 @@
+<template>
+    <div>
+    <h2>Events Page</h2>
+    <div class="event" v-for="(item, index) in info" :key="index" @click="goToEvent(item.eventID)">
+      <h3>{{ item.title }}</h3>
+      <h5> Event Date:{{item.eventStartDate}}&nbsp;&nbsp;
+       Location:{{item.other}}</h5>
+      <p>{{ item.description }}</p>
+     <div v-if="item.linkURL !== null && item.linkURL !== undefined && item.linkURL !== ''">
+     <p><a :href="item.linkURL">OOk's Life Event link</a></p></div>
+    </div>
+  </div>
+  </template>
+  
+  <script>
+export default {
+  data() {
+    return {
+      info: null
+    };
+  },
+  async mounted() {
+    try {
+      const response = await fetch('/Event');
+      this.info = await response.json();
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  },
+  methods: {
+    goToEvent(id) {
+      window.location.hash = `/events/${id}`;
+    },
+  },
+};
+</script>
+  
+  <style scoped>
+  .event {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .event h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .event h5 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #acd527;
+  }
+  
+  .event p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .event a {
+    color: #1a0dab;
+  }
+  </style>
+  

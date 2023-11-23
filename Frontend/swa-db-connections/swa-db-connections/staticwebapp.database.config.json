@@ -1,0 +1,35 @@
+{
+  "$schema": "https://github.com/Azure/data-api-builder/releases/download/v0.9.7/dab.draft.schema.json",
+  "data-source": {
+    "database-type": "cosmosdb_nosql",
+    "connection-string": "AccountEndpoint=https://naitwebeco-cosmosdb.documents.azure.com:443/;AccountKey=kcZsqIC6nvTulPPCaMyGMKncllmIAre9UqDOGBHUVhSAl7PGDJHVWHvwA5kayygLxpaOzscGQMcyACDbfb3f0w==;",
+    "options": {
+      "database": "testdb",
+      "container": "Event_Collection",
+      "schema": "staticwebapp.database.schema.gql"
+    }
+  },
+  "runtime": {
+    "rest": {
+      "enabled": false,
+      "path": "/api",
+      "request-body-strict": true
+    },
+    "graphql": {
+      "enabled": true,
+      "path": "/graphql",
+      "allow-introspection": true
+    },
+    "host": {
+      "cors": {
+        "origins": [],
+        "allow-credentials": false
+      },
+      "authentication": {
+        "provider": "StaticWebApps"
+      },
+      "mode": "production"
+    }
+  },
+  "entities": {}
+}

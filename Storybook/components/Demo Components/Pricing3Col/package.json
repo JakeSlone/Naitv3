@@ -1,0 +1,8 @@
+{
+    "name": "@jslone/pricing3col",
+    "version": "1.0.1",
+    "publishConfig": {
+        "access": "public"
+    },
+    "gitHead": "e061d75e4451cf79bfcccf39fe2ab18661f73369"
+}

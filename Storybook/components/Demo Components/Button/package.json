@@ -1,0 +1,8 @@
+{
+    "name": "@jslone/button",
+    "version": "0.0.4",
+    "publishConfig": {
+        "access": "public"
+    },
+    "gitHead": "d1de695ecdc8a34f5bad98cefd0ac44be51cbf62"
+}

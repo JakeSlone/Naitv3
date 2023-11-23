@@ -1,0 +1,39 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.20",
+    "@storybook/addon-interactions": "^7.0.20",
+    "@storybook/addon-links": "^7.0.20",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/blocks": "^7.0.20",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/vue3": "^7.0.20",
+    "@storybook/vue3-vite": "^7.0.20",
+    "autoprefixer": "^10.4.15",
+    "chromatic": "^6.19.7",
+    "lerna": "^7.0.1",
+    "postcss": "^8.4.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.20",
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_87afaf4b0ac02e5"
+  },
+  "version": "",
+  "readme": "ERROR: No README data found!",
+  "_id": "root@",
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "@tailwindcss/typography": "^0.5.9",
+    "font-awesome": "^4.7.0"
+  }
+}
