@@ -1,5 +1,5 @@
 {
-    "name": "@jslone/masthead",
+    "name": "@Nait/masthead",
     "version": "0.0.7",
     "publishConfig": {
         "access": "restricted"
@@ -8,5 +8,5 @@
         "type": "git",
         "url": "https://github.com/JakeSlone/Naitv3.git"
     },
-    "gitHead": "693af69422cda100cb18de0ecc606f3ff8b5b402"
+    "gitHead": "bd788db1eab1caf706929d87c824ff6dce71d0e4"
 }
