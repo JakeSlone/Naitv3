@@ -1,0 +1,8 @@
+{
+    "name": "@jslone/masthead",
+    "version": "0.0.12",
+    "publishConfig": {
+        "access": "public"
+    },
+    "gitHead": "42bdc8f1cd47deefb998aac4c8015af42dbe91b2"
+}

@@ -13,7 +13,7 @@
         "@astrojs/vue": "^3.0.4",
         "@headlessui/vue": "^1.7.16",
         "@heroicons/vue": "^2.0.18",
-        "@jslone/masthead": "^0.0.2",
+        "@jslone/masthead": "^0.0.12",
         "astro": "^3.5.4",
         "vue": "^3.3.8"
     },
