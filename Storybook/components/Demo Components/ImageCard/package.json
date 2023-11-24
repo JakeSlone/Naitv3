@@ -1,8 +1,0 @@
-{
-    "name": "@jslone/imagecard",
-    "version": "0.1.2",
-    "publishConfig": {
-        "access": "public"
-    },
-    "gitHead": "e061d75e4451cf79bfcccf39fe2ab18661f73369"
-}
