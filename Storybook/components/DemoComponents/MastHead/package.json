@@ -6,7 +6,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:JakeSlone/Naitv3.git"
-    },
-    "gitHead": "404edd362720dabe0ff4ba2ed6b4f7ad1bf15dbb"
+        "url": "ssh://git@github.com:JakeSlone/Naitv3.git"
+    }
 }
