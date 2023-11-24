@@ -17,7 +17,7 @@ const Template = (args) => ({
 
 export const Default = Template.bind({});
 Default.args = {
-    name: "Jake Slone",
+    name: "Emp Loyee",
     student: true,
     staff: false,
 };
