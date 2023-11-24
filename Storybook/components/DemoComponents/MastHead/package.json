@@ -4,9 +4,5 @@
     "publishConfig": {
         "access": "restricted"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/JakeSlone/Naitv3.git"
-    },
-    "gitHead": "7cc115a3bafba8184870db40cc167622933e3066"
+    "gitHead": "d1bf3ab2640b5db58693b2151587395d6964b1a5"
 }
