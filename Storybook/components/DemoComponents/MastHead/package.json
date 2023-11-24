@@ -1,8 +1,8 @@
 {
-    "name": "@Nait/masthead",
+    "name": "@jslone/masthead",
     "version": "0.0.9",
     "publishConfig": {
         "access": "restricted"
     },
-    "gitHead": "d1bf3ab2640b5db58693b2151587395d6964b1a5"
+    "gitHead": "5290301bfcbf3ae8a3c84ad2cd86543ee83161e6"
 }
