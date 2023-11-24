@@ -6,7 +6,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "ssh://git@github.com:jsilva-pt/medium-reusable-vue-components.git"
-    },
-    "gitHead": "6076b2e7b3a05e873eee734edeee6b56e1b1d687"
+        "url": "ssh://git@github.com:JakeSlone/Naitv3.git"
+    }
 }
