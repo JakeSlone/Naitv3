@@ -2,7 +2,7 @@
     "name": "@jslone/masthead",
     "version": "0.0.10",
     "publishConfig": {
-        "access": "restricted"
+        "access": "public"
     },
-    "gitHead": "5290301bfcbf3ae8a3c84ad2cd86543ee83161e6"
+    "gitHead": "7c16a2e82852d4a215823995cbec22f9ad06231c"
 }
