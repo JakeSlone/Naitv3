@@ -2,11 +2,11 @@
     "name": "@jslone/masthead",
     "version": "0.0.6",
     "publishConfig": {
-        "access": "public"
+        "access": "restricted"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/JakeSlone/Naitv3.git"
     },
-    "gitHead": "515030e34e26d3474ce53fe85725b70a1a2cbd9e"
+    "gitHead": "693af69422cda100cb18de0ecc606f3ff8b5b402"
 }
