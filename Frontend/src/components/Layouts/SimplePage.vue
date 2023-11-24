@@ -1,5 +1,5 @@
 <script>
-import MastHead from "@jslone/mastHead/Masthead.vue";
+import MastHead from "@jslone/MastHead/Masthead.vue";
 </script>
 <template><MastHead /></template>
 <script setup>
