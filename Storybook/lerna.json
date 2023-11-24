@@ -4,7 +4,7 @@
     "packages": ["components/DemoComponents/*"],
     "command": {
         "publish": {
-            "registry": "JakeSlone:registry=https://npm.pkg.github.com"
+            "registry": "https://npm.pkg.github.com"
         }
     }
 }
