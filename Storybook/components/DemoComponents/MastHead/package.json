@@ -7,5 +7,6 @@
     "repository": {
         "type": "git",
         "url": "ssh://git@github.com:JakeSlone/Naitv3.git"
-    }
+    },
+    "gitHead": "2ddd9a68f4bf4e47f4ac25dbd2345eb4644b1921"
 }
