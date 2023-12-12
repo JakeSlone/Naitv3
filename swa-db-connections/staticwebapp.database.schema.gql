@@ -1,0 +1,22 @@
+
+"""
+Add your CosmosDB NoSQL database schema in this file
+
+For example:
+
+type Event @model {
+  id: ID
+  title: String
+}
+
+"""
+type EventModel {
+  id: ID
+  EventID: Int
+  Title: String
+  notes: String
+  LinkURL: String
+  Description: String
+  other: String
+  EventStartDate: String
+}
