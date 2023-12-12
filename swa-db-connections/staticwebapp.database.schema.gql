@@ -20,3 +20,12 @@ type EventModel {
   other: String
   EventStartDate: String
 }
+type Query {
+    getinfo(inputid: ID): Product
+    }
+input SearchListingsInput {
+    EventID: ID 
+}
+`);
+
+    export default schema;
