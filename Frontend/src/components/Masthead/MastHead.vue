@@ -169,7 +169,7 @@ const navigation = [
     { name: "Plans", href: "#/plans" },
     { name: "About", href: "#/about" },
     { name: "News", href: "#/news" },
-    { name: "Events", href: "#/events" },
+    { name: "Events", href: "/Events" },
     { name: "Sign up", href: "#/signup" },
 ];
 
